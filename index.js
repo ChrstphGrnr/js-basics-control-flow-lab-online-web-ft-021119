@@ -5,7 +5,7 @@ function scuberGreetingForFeet(distance){
       response = "No can do.";}
     elseif ( distance <= 400 ) {
       response = "This one is on me!" }
-    else {
+    elseif ( distance > 2000 )
       response = "I will gladly take your thirty bucks."
     }
 }
