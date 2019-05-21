@@ -2,10 +2,12 @@ function scuberGreetingForFeet(distance){
   // Write your code here!
   let response;
   if ( distance > 2500) {
-      response = "No can do.";}
+      response = "No can do.";
+    }
     elseif ( distance <= 400 ) {
-      response = "This one is on me!" }
-    elseif ( distance > 2000 )
+      response = "This one is on me!"
+    }
+    elseif ( distance > 2000 ) {
       response = "I will gladly take your thirty bucks."
     }
 }
